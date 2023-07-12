@@ -1,10 +1,116 @@
-html {
+* {
+  border: 2px solid green;
   margin: 0;
+  padding: 0;
 }
 
 .hero {
   background-color: #1f2937;
 }
+.hero {
+  display: flex;
+  flex-flow: column;
+}
+
+.hero .top_bar {
+  margin: 10px 120px 20px 120px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 auto;
+  justify-content: space-around;
+}
+.hero .top_bar .heading {
+  display: flex;
+  margin: 20px;
+  flex: 1 1 auto;
+}
+.hero .top_bar .links {
+  display: flex;
+  flex: 1 1 auto;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero .top_bar .links a {
+  margin: 20px;
+}
+
+.hero .intro {
+  margin: 120px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 auto;
+}
+.hero .intro div {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+.hero .intro div * {
+  margin: 5px;
+}
+.hero .intro div button {
+  align-self: flex-start;
+  padding: 5px 10px;
+}
+.hero .img1 {
+  display: flex;
+  flex: 1 1 auto;
+  justify-self: center;
+  text-align: center;
+  background-color: gray;
+}
+.information {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 auto;
+  align-items: center;
+  margin: 120px;
+  padding: 20px;
+}
+.information div,
+.information h2 {
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  align-self: stretch;
+  justify-content: space-around;
+}
+.information .info_images img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 auto;
+  align-items: center;
+  padding: 100px 200px 100px 200px;
+}
+.quote h2 {
+  align-self: flex-end;
+}
+
+.signup_box {
+  display: flex;
+  flex: 1 1 auto;
+  margin: 120px;
+  padding: 20px;
+}
+.signup_box div{
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
 .hero h1 {
   color: #f9faf8;
   font-size: 48px;
