@@ -103,12 +103,29 @@
   display: flex;
   flex: 1 1 auto;
   margin: 120px;
-  padding: 20px;
+  padding: 60px 100px;
+  border-radius: 10px;
 }
 .signup_box div{
-  padding: 20px;
+  padding: 40px;
+  flex: 1 1 auto;
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_box .left{
+  padding: 5px;
+  align-items: flex-start;
+}
+.signup_box button{
+  padding: 5px 25px;
+}
+
+footer  {
+  padding: 30px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -169,15 +186,22 @@
 .signup_box {
   background-color: #3882f6;
   color: #f9faf8;
+  font-size: 20px;
+}
+.signup_box p{
+  font-size: 18px;
 }
 .signup_box button {
   background-color: #3882f6;
   color: #f9faf8;
   border: 2px solid #f9faf8;
   border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 footer {
   color: #f9faf8;
+  font-size: 18px;
   background-color: #1f2937;
 }
